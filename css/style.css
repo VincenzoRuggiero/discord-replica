@@ -14,6 +14,21 @@ main {
   margin: 0 auto;
 }
 
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Maven Pro", sans-serif;
+}
+
+p,
+li {
+  font-family: "Kanit", sans-serif;
+}
+
 /* BUTTONS */
 button {
   padding: 10px 20px;
@@ -80,7 +95,6 @@ header {
 }
 h1.welcome__heading {
   font-family: "Raleway", sans-serif;
-  font-weight: ;
   font-size: 2rem;
 }
 .welcome__heading,
@@ -102,19 +116,23 @@ h1.welcome__heading {
 .content__box {
   display: flex;
   align-items: center;
-  background-color: aqua;
 }
 
 .content__description {
+  justify-content: center;
+  align-items: center;
   padding: 10%;
 }
 
 .content__description h2 {
   font-size: 3rem;
+  font-family: "Maven Pro", sans-serif;
   margin-bottom: 1.5rem;
 }
 
 .content__description p {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
   line-height: 1.5rem;
   font-size: 1.5rem;
 }
@@ -127,7 +145,18 @@ h1.welcome__heading {
   padding-top: 3rem;
   display: block;
   text-align: center;
-  background-color: cornflowerblue;
+}
+
+.last__content__box h2 {
+  font-size: 3rem;
+  font-family: "Maven Pro", sans-serif;
+}
+
+.last__content__box p {
+  padding: 3rem 20rem 0;
+  font-size: 1.5rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
 }
 
 /* DOWNLOAD SECTION */
@@ -138,7 +167,7 @@ h1.welcome__heading {
 }
 
 .download__section img {
-  width: 43%;
+  width: 60%;
 }
 .download__section h3 {
   font-size: 2rem;
@@ -147,14 +176,14 @@ h1.welcome__heading {
 
 /* FOOTER */
 footer {
-  background-color: #0492ff;
+  background-color: #23272a;
   height: 400px;
 }
 
 .footer__container {
   width: 80%;
+  padding-top: 2rem;
   margin: 3rem auto;
-  border: 1 solid red;
   display: flex;
 }
 
@@ -164,11 +193,12 @@ footer {
 }
 
 .footer__social {
-  flex-basis: 30%;
+  flex-basis: 20%;
 }
 
 .footer__social h3 {
   font-size: 1.5rem;
+  color: #90a2e1;
 }
 
 .footer__nav {
@@ -182,6 +212,16 @@ footer {
   display: inline-block;
   flex-basis: 20%;
   justify-content: space-between;
+}
+
+.footer__nav__menu h4 {
+  color: #90a2e1;
+}
+
+.footer__nav__menu li {
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 2em;
 }
 
 footer hr {
