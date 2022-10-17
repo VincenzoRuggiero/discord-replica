@@ -35,7 +35,7 @@ button {
 .hero__container {
   width: 100%;
   height: 450px;
-  background: url(../img/jumbo.png) no-repeat no-repeat fixed;
+  background: url(../img/jumbo.png) no-repeat no-repeat;
   background-size: contain;
 }
 
@@ -45,7 +45,6 @@ header {
 
 .header__wrapper {
   width: 80%;
-  height: 30px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -83,3 +82,29 @@ header {
 }
 
 /* CONTENTS */
+#contents {
+  width: 80%;
+  margin: auto;
+}
+
+.content__box {
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+}
+
+.content__pic img {
+  height: 400px;
+}
+
+.content__description {
+  padding: 10%;
+}
+
+.content__description h2 {
+  font-size: 2rem;
+}
+
+.text__left {
+  flex-direction: row-reverse;
+}
