@@ -197,8 +197,24 @@ footer {
 }
 
 .footer__social h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #90a2e1;
+  padding-bottom: 5px;
+}
+
+.footer__social > img {
+  height: 10%;
+  margin-right: 10px;
+}
+
+.small__icon {
+  width: 1.5rem;
+  background-color: #fff;
+}
+
+.language__selector {
+  color: #fff;
+  font-size: 1rem;
 }
 
 .footer__nav {
@@ -236,4 +252,9 @@ footer hr {
   margin: 30px auto;
   display: flex;
   justify-content: space-between;
+}
+
+.fa-brands {
+  color: #fff;
+  padding: 10px;
 }
